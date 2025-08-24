@@ -1,0 +1,57 @@
+body {
+    background: url("https://i.pinimg.com/originals/7d/b1/b8/7db1b8dd6eae306b9a00a01778c779b2.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+
+header {
+    background:darkgray;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.section {
+    padding: 40px;
+    text-align: center;
+}
+
+button {
+    background: #ff5722;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.project-card {
+    background: #f4f4f4;
+    padding: 15px;
+    margin: 10px auto;
+    width: 300px;
+    border-radius: 8px;
+}

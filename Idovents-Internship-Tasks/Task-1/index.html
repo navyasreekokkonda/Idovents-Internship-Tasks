@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <h1 class="logo">MyPortfolio</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#connect">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="section">
+        <h2>Hello, I'm <span id="name">Your Name</span></h2>
+        <p>Aspiring Web Developer & AI Enthusiast</p>
+        <button onclick="scrollToSection('projects')">View My Work</button>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>
+            I am passionate about building interactive websites and learning AI/ML.
+            I enjoy turning ideas into reality using code.
+        </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2>My Projects</h2>
+        <div class="project-card">
+            <h3>Portfolio Website</h3>
+            <p>A simple personal portfolio using HTML, CSS, and JavaScript.</p>
+        </div>
+        <div class="project-card">
+            <h3>AI Chatbot(ongoing)</h3>
+            <p>An AI-powered chatbot using Python and NLP.</p>
+        </div>
+                <div class="project-card">
+            <h3>Smart CCTV Emergency system(Ongoing)</h3>
+            <p>An Autonomous cctv using Ml,Opencv-python,yolo-5</p>
+        </div>
+                <div class="project-card">
+            <h3>VirtualEye(ongoing)</h3>
+            <p> An Autonomous system which detcts the obstacles and speaks out using pythob-gTTS,Yolo-5,Opencv-python</p>
+        </div>
+
+
+    </section>
+
+    <!-- Contact Section -->
+    <section id="connect" class="section">
+        <h2>Connect</h2>
+            <p>
+        Connect with me on 
+        <a href="www.linkedin.com/in/navya-sree-kokkonda-64853624a" target="_blank">
+            LinkedIn
+        </a>
+
+    </p>
+    <p>Email:"sreenavyahi@gmail.com"</p>
+            <a href="https://github.com/navyasreekokkonda" target="_blank">
+            GitHub
+        </a>
+
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

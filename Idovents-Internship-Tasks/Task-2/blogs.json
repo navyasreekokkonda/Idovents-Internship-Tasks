@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "title": "Getting Started with AI",
+    "description": "A beginner's guide to Artificial Intelligence and its real-world applications.",
+    "thumbnail": "images/ai.jpg",
+    "content": "Artificial Intelligence (AI) is a branch of computer science that focuses on building smart machines capable of performing tasks that typically require human intelligence..."
+  },
+  {
+    "id": 2,
+    "title": "Web Development Trends 2025",
+    "description": "Explore the latest web development trends shaping the industry in 2025.",
+    "thumbnail": "images/web.jpg",
+    "content": "Web development in 2025 focuses heavily on AI integration, faster frameworks, and immersive experiences using WebXR..."
+  }
+]
